@@ -1,0 +1,25 @@
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .handwave{
+    margin-left: 10px;
+    animation: hiiwave 2s infinite;
+  }
+  @keyframes hiiwave {
+    0%{
+      transform: rotate(0deg);
+    }
+    30%{
+      transform: rotate(15deg);
+    }
+    70%{
+      transform: rotate(-15deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+}

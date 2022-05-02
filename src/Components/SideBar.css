@@ -1,0 +1,20 @@
+.sidebar{
+   align-self: flex-end;
+    background-color: #640d1477;
+    position: fixed;
+    top:30px;
+    right:30px;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+.options{
+    font-size: 16px;
+    margin:8px;
+    cursor:pointer;
+    padding: 5px;
+    transition: 250ms;
+}
